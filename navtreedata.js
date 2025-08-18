@@ -36,9 +36,8 @@ var NAVTREE =
       [ "std::execution Overview", "md_docs_overview.html#autotoc_md2", [
         [ "Terms", "md_docs_overview.html#autotoc_md3", null ],
         [ "Concepts", "md_docs_overview.html#autotoc_md4", null ],
-        [ "Queries", "md_docs_overview.html#autotoc_md5", [
-          [ "Customization Point Objects", "md_docs_overview.html#autotoc_md6", null ]
-        ] ],
+        [ "Queries", "md_docs_overview.html#autotoc_md5", null ],
+        [ "Customization Point Objects", "md_docs_overview.html#autotoc_md6", null ],
         [ "Senders", "md_docs_overview.html#autotoc_md7", [
           [ "Sender Factories", "md_docs_overview.html#autotoc_md8", null ],
           [ "Sender Adaptors", "md_docs_overview.html#autotoc_md9", null ],
@@ -77,7 +76,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "allocator__aware__move_8hpp_source.html",
-"structbeman_1_1execution_1_1get__env__t.html"
+"structbeman_1_1execution_1_1completion__signatures.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
