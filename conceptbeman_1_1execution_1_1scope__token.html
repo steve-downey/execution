@@ -102,14 +102,13 @@ $(document).ready(function(){initNavTree('conceptbeman_1_1execution_1_1scope__to
 <div class="contents">
 <h2 class="groupheader">Concept definition</h2>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> Token&gt;</div>
-<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptbeman_1_1execution_1_1scope__token.html">beman::execution::scope_token</a> =  ::std::copyable&lt;Token&gt; &amp;&amp; <span class="keyword">requires</span>(Token token) {</div>
-<div class="line">    { token.try_associate() } -&gt; ::std::same_as&lt;bool&gt;;</div>
-<div class="line">    { token.disassociate() } <span class="keyword">noexcept</span>;</div>
+<div class="line"><span class="keyword">concept </span><a class="code hl_concept" href="conceptbeman_1_1execution_1_1scope__token.html">beman::execution::scope_token</a> =  ::std::copyable&lt;Token&gt; &amp;&amp; <span class="keyword">requires</span>(<span class="keyword">const</span> Token token) {</div>
+<div class="line">    { token.try_associate() } -&gt; ::beman::execution::scope_association;</div>
 <div class="line">    {</div>
 <div class="line">        token.wrap(::std::declval&lt;::beman::execution::detail::token_test_sender&gt;())</div>
 <div class="line">    } -&gt; ::beman::execution::sender_in&lt;::beman::execution::detail::token_test_env&gt;;</div>
 <div class="line">}</div>
-<div class="ttc" id="aconceptbeman_1_1execution_1_1scope__token_html"><div class="ttname"><a href="conceptbeman_1_1execution_1_1scope__token.html">beman::execution::scope_token</a></div><div class="ttdef"><b>Definition:</b> scope_token.hpp:33</div></div>
+<div class="ttc" id="aconceptbeman_1_1execution_1_1scope__token_html"><div class="ttname"><a href="conceptbeman_1_1execution_1_1scope__token.html">beman::execution::scope_token</a></div><div class="ttdef"><b>Definition:</b> scope_token.hpp:46</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
