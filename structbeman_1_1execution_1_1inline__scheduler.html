@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>beman::execution: beman::execution::get_completion_signatures_t Struct Reference</title>
+<title>beman::execution: beman::execution::inline_scheduler Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -71,7 +71,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('structbeman_1_1execution_1_1get__completion__signatures__t.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('structbeman_1_1execution_1_1inline__scheduler.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -98,29 +98,51 @@ $(document).ready(function(){initNavTree('structbeman_1_1execution_1_1get__compl
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="structbeman_1_1execution_1_1get__completion__signatures__t-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">beman::execution::get_completion_signatures_t Struct Reference</div></div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="structbeman_1_1execution_1_1inline__scheduler-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">beman::execution::inline_scheduler Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbeman_1_1execution_1_1inline__scheduler_1_1env.html">env</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbeman_1_1execution_1_1inline__scheduler_1_1sender.html">sender</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbeman_1_1execution_1_1inline__scheduler_1_1state.html">state</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a617d85838b5256abaed6f05d6ff193a7"><td class="memItemLeft" align="right" valign="top"><a id="a617d85838b5256abaed6f05d6ff193a7" name="a617d85838b5256abaed6f05d6ff193a7"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>scheduler_concept</b> = <a class="el" href="structbeman_1_1execution_1_1scheduler__t.html">::beman::execution::scheduler_t</a></td></tr>
+<tr class="separator:a617d85838b5256abaed6f05d6ff193a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1e728778c2e2cc49788f8ab831493013"><td class="memTemplParams" colspan="2"><a id="a1e728778c2e2cc49788f8ab831493013" name="a1e728778c2e2cc49788f8ab831493013"></a>
-template&lt;typename Sender , typename Env &gt; <br />
-requires (!::std::same_as&lt;void, decltype(get_completion_signatures_t::get(::std::declval&lt;Sender&gt;(), ::std::declval&lt;Env&gt;()))&gt;)</td></tr>
-<tr class="memitem:a1e728778c2e2cc49788f8ab831493013"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator()</b> (Sender &amp;&amp;sender, Env &amp;&amp;<a class="el" href="structbeman_1_1execution_1_1env.html">env</a>) const noexcept</td></tr>
-<tr class="separator:a1e728778c2e2cc49788f8ab831493013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54dcc0e7811b9cb53f3bb3b2f1603e16"><td class="memItemLeft" align="right" valign="top"><a id="a54dcc0e7811b9cb53f3bb3b2f1603e16" name="a54dcc0e7811b9cb53f3bb3b2f1603e16"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="structbeman_1_1execution_1_1inline__scheduler.html">inline_scheduler</a> &amp;) const -&gt; bool=default</td></tr>
+<tr class="separator:a54dcc0e7811b9cb53f3bb3b2f1603e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af60acb9c48d6ce713558c0b39d2cd9f4"><td class="memItemLeft" align="right" valign="top"><a id="af60acb9c48d6ce713558c0b39d2cd9f4" name="af60acb9c48d6ce713558c0b39d2cd9f4"></a>
+static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><b>schedule</b> () noexcept -&gt; <a class="el" href="structbeman_1_1execution_1_1inline__scheduler_1_1sender.html">sender</a></td></tr>
+<tr class="separator:af60acb9c48d6ce713558c0b39d2cd9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/beman/execution/detail/<a class="el" href="get__completion__signatures_8hpp_source.html">get_completion_signatures.hpp</a></li>
+<li>include/beman/execution/detail/<a class="el" href="inline__scheduler_8hpp_source.html">inline_scheduler.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacebeman.html">beman</a></li><li class="navelem"><a class="el" href="namespacebeman_1_1execution.html">execution</a></li><li class="navelem"><a class="el" href="structbeman_1_1execution_1_1get__completion__signatures__t.html">get_completion_signatures_t</a></li>
+    <li class="navelem"><a class="el" href="namespacebeman.html">beman</a></li><li class="navelem"><a class="el" href="namespacebeman_1_1execution.html">execution</a></li><li class="navelem"><a class="el" href="structbeman_1_1execution_1_1inline__scheduler.html">inline_scheduler</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
