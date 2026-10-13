@@ -2,21 +2,25 @@ var annotated_dup =
 [
     [ "beman", "namespacebeman.html", [
       [ "execution", "namespacebeman_1_1execution.html", [
+        [ "parallel_scheduler_replacement", null, [
+          [ "bulk_item_receiver_proxy", "structbeman_1_1execution_1_1parallel__scheduler__replacement_1_1bulk__item__receiver__proxy.html", null ],
+          [ "parallel_scheduler_backend", "structbeman_1_1execution_1_1parallel__scheduler__replacement_1_1parallel__scheduler__backend.html", null ],
+          [ "receiver_proxy", "structbeman_1_1execution_1_1parallel__scheduler__replacement_1_1receiver__proxy.html", null ]
+        ] ],
         [ "as_awaitable_t", "structbeman_1_1execution_1_1as__awaitable__t.html", null ],
-        [ "completion_signatures", "structbeman_1_1execution_1_1completion__signatures.html", null ],
+        [ "completion_signatures", "structbeman_1_1execution_1_1completion__signatures.html", "structbeman_1_1execution_1_1completion__signatures" ],
         [ "counting_scope", "classbeman_1_1execution_1_1counting__scope.html", "classbeman_1_1execution_1_1counting__scope" ],
         [ "default_domain", "structbeman_1_1execution_1_1default__domain.html", null ],
         [ "dependent_sender_error", "structbeman_1_1execution_1_1dependent__sender__error.html", null ],
         [ "env", "structbeman_1_1execution_1_1env.html", null ],
         [ "get_allocator_t", "structbeman_1_1execution_1_1get__allocator__t.html", null ],
         [ "get_await_completion_adaptor_t", "structbeman_1_1execution_1_1get__await__completion__adaptor__t.html", null ],
-        [ "get_completion_scheduler_t", "structbeman_1_1execution_1_1get__completion__scheduler__t.html", null ],
         [ "get_delegation_scheduler_t", "structbeman_1_1execution_1_1get__delegation__scheduler__t.html", null ],
-        [ "get_domain_t", "structbeman_1_1execution_1_1get__domain__t.html", null ],
         [ "get_env_t", "structbeman_1_1execution_1_1get__env__t.html", null ],
         [ "get_forward_progress_guarantee_t", "structbeman_1_1execution_1_1get__forward__progress__guarantee__t.html", null ],
-        [ "get_scheduler_t", "structbeman_1_1execution_1_1get__scheduler__t.html", null ],
+        [ "get_start_scheduler_t", "structbeman_1_1execution_1_1get__start__scheduler__t.html", null ],
         [ "get_stop_token_t", "structbeman_1_1execution_1_1get__stop__token__t.html", null ],
+        [ "indeterminate_domain", "structbeman_1_1execution_1_1indeterminate__domain.html", null ],
         [ "inline_scheduler", "structbeman_1_1execution_1_1inline__scheduler.html", "structbeman_1_1execution_1_1inline__scheduler" ],
         [ "inplace_stop_callback", "classbeman_1_1execution_1_1inplace__stop__callback.html", null ],
         [ "inplace_stop_source", "classbeman_1_1execution_1_1inplace__stop__source.html", null ],
@@ -30,6 +34,7 @@ var annotated_dup =
         [ "nostopstate_t", "structbeman_1_1execution_1_1nostopstate__t.html", null ],
         [ "operation_state_tag", "structbeman_1_1execution_1_1operation__state__tag.html", null ],
         [ "parallel_policy", "structbeman_1_1execution_1_1parallel__policy.html", null ],
+        [ "parallel_scheduler", "classbeman_1_1execution_1_1parallel__scheduler.html", "classbeman_1_1execution_1_1parallel__scheduler" ],
         [ "parallel_unsequenced_policy", "structbeman_1_1execution_1_1parallel__unsequenced__policy.html", null ],
         [ "prop", "structbeman_1_1execution_1_1prop.html", null ],
         [ "receiver_tag", "structbeman_1_1execution_1_1receiver__tag.html", null ],
@@ -48,9 +53,18 @@ var annotated_dup =
         [ "stop_source", "classbeman_1_1execution_1_1stop__source.html", null ],
         [ "stop_token", "classbeman_1_1execution_1_1stop__token.html", null ],
         [ "sync_wait_with_variant_t", "structbeman_1_1execution_1_1sync__wait__with__variant__t.html", null ],
+        [ "task", "classbeman_1_1execution_1_1task.html", null ],
+        [ "task_scheduler", "classbeman_1_1execution_1_1task__scheduler.html", "classbeman_1_1execution_1_1task__scheduler" ],
         [ "unsequenced_policy", "structbeman_1_1execution_1_1unsequenced__policy.html", null ],
-        [ "with_awaitable_senders", "structbeman_1_1execution_1_1with__awaitable__senders.html", null ]
+        [ "with_awaitable_senders", "structbeman_1_1execution_1_1with__awaitable__senders.html", null ],
+        [ "with_error", "structbeman_1_1execution_1_1with__error.html", null ]
       ] ]
+    ] ],
+    [ "std", null, [
+      [ "common_type< D, ::beman::execution::indeterminate_domain< Domains... > >", "structstd_1_1common__type_3_01D_00_01_1_1beman_1_1execution_1_1indeterminate__domain_3_01Domains_8_8_8_01_4_01_4.html", null ],
+      [ "common_type<::beman::execution::indeterminate_domain< Domains... >, D >", "structstd_1_1common__type_3_1_1beman_1_1execution_1_1indeterminate__domain_3_01Domains_8_8_8_01_4_00_01D_01_4.html", null ],
+      [ "common_type<::beman::execution::indeterminate_domain< Domains1... >, ::beman::execution::indeterminate_domain< Domains2... > >", "structstd_1_1common__type_3_1_1beman_1_1execution_1_1indeterminate__domain_3_01Domains1_8_8_8_0165f01b763af7a8575fe9cb0bab769a35.html", null ],
+      [ "uses_allocator<::beman::execution::task_scheduler, Alloc >", "structstd_1_1uses__allocator_3_1_1beman_1_1execution_1_1task__scheduler_00_01Alloc_01_4.html", null ]
     ] ],
     [ "tst", null, [
       [ "add_set_value", "structtst_1_1add__set__value.html", "structtst_1_1add__set__value" ],
